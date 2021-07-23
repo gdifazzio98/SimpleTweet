@@ -14,7 +14,9 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:srcCompat="@drawable/ic_baseline_house_24"
+        tools:srcCompat="@tools:sample/avatars"
+        />
 
     <TextView
         android:id="@+id/tvScreenName"
@@ -30,6 +32,7 @@
         android:id="@+id/tvBody"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoLink="all"
         android:layout_below="@+id/tvScreenName"
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
