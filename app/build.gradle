@@ -21,6 +21,7 @@ android {
         buildConfigField("String", "CONSUMER_KEY", apikeyProperties['CONSUMER_KEY'])
         buildConfigField("String", "CONSUMER_SECRET", apikeyProperties['CONSUMER_SECRET'])
     }
+    
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
