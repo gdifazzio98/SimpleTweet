@@ -1,4 +1,3 @@
-
 package com.codepath.apps.restclienttemplate;
 
 import java.text.ParseException;
@@ -76,5 +75,4 @@ public class TimeFormatter {
         return time;
     }
 }
-
 

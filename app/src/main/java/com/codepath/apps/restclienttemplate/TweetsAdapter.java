@@ -73,7 +73,6 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         TextView tvScreenName;
         TextView tvTimeStamp;
 
-
         public ViewHolder(@NonNull @NotNull View itemView) {
             super(itemView);
             ivProfileImage = itemView.findViewById(R.id.ivProfileImage);
@@ -83,7 +82,6 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         }
 
         public void bind(Tweet tweet) {
-
             tvTimeStamp.setText(TimeFormatter.getTimeDifference(tweet.timeStamp));
             tvBody.setText(tweet.body);
             tvScreenName.setText(tweet.user.screenName);
