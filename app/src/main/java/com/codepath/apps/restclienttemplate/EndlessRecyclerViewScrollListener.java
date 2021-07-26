@@ -1,3 +1,5 @@
+//EndlessRecycler
+
 package com.codepath.apps.restclienttemplate;
 
 import androidx.recyclerview.widget.GridLayoutManager;
@@ -104,3 +106,4 @@ public abstract class EndlessRecyclerViewScrollListener extends RecyclerView.OnS
     public abstract void onLoadMore(int page, int totalItemsCount, RecyclerView view);
 
 }
+
