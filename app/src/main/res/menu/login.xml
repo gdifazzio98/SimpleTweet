@@ -1,12 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools" tools:context=".TimeLineActivity" >
-    <!-- House Icon -->
-    <item
-        android:id="@+id/house_icon"
-        android:icon="@drawable/ic_baseline_house_24"
-        android:title="@string/app_name"
-        app:showAsAction="always"
-        />
 
 </menu>
