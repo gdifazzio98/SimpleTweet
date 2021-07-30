@@ -20,7 +20,7 @@
         android:hint="What's happening?"
         android:inputType="textMultiLine"
         android:minLines="5"
-        android:maxLength="140" />
+        android:maxLength="280" />
 
     <Button
         android:id="@+id/btnTweet"
@@ -43,8 +43,8 @@
         android:layout_toStartOf="@+id/btnTweet"
         android:ems="5"
         android:gravity="center"
-        android:text="0/140"
+        android:text="0/280"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:text="0/140" />
+        tools:text="0/280" />
 </RelativeLayout>
