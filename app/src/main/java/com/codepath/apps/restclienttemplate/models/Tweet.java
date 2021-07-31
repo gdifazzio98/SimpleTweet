@@ -34,7 +34,7 @@ public class Tweet {
     @ColumnInfo
     public long userId;
 
-    @ColumnInfo //****@Ignore
+    @Ignore
     public String timeStamp;
 
     // empty constructor needed by the Parceler library
