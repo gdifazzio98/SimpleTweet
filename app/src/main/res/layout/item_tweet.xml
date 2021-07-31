@@ -25,7 +25,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="0dp"
         android:layout_toEndOf="@+id/ivProfileImage"
-        tools:text="gdifazzio98" />
+        tools:text="gdifazzio98"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/tvBody"
@@ -45,5 +46,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="36dp"
         android:layout_toEndOf="@+id/tvScreenName"
-        tools:text="2 hours ago" />
+        tools:text="2 hours ago"
+        android:textStyle="bold"/>
 </RelativeLayout>
